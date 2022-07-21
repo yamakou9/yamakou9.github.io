@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="author" content="Koichi Toyama">
+    <meta name="keywords" content="HTML,">
+</head>
+
+<body>
+    <div></div>
+
+    <div>
+        <h2>お問い合わせ</h2>
+
+        <form action="#" method="post">
+            <div>
+                <label for="surname">姓</label>
+                <input type="text" name="lastname" id="surname" placeholder="例　山田" required>
+
+                <label>
+                    名
+                    <input type="text" name="firstname" id="surname" placeholder="例　太郎">
+                </label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement">プライバシーポリシーに同意する</label>
+            </div>
+
+            <div>
+                <label>
+                    <input type="radio" name="sex" value="male">
+                    男
+                </label>
+                <label>
+                    <input type="radio" name="sex" value="female">
+                    女
+                </label>
+                <label>
+                    <input type="radio" name="sex" value="other">
+                    無回答
+                </label>
+            </div>
+
+            <div>
+                <p>お問い合わせ内容</p>
+                <label for="requests">
+                </label>
+                <textarea name="requests" id="requests" cols="30" rows="12"></textarea>
+            </div>
+
+            <div>
+                <label>
+                    メールアドレス:
+                    <input type="email" name="email">
+                </label>
+            </div>
+
+            <div>
+                <input type="submit" value="送信する">
+                <input type="reset" value="リセット">
+            </div>
+        </form>
+
+    </div>
+
+    </div>
+</body>
+
+
+</html>

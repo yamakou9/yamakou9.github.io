@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+}
+
+table {
+    border: 2px solid pink;
+}
+
+th {
+    border: 9px double blue;
+}
+
+td {
+    border: 4px dashed blue;
+    border-radius: 15px;
+}
+
+h1 {
+    border: 4px dashed yellow;
+    border-radius: 15px;
+}
+
+#menu>ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#menu>ul>li {
+    display: inline;
+
+    margin: 0 16px 0 0;
+
+    padding: 4px;
+
+    border: 1px solid #666666;
+
+    border-radius: 4px;
+
+    background: linear-gradient(#FFFFFF, #888888);
+}
